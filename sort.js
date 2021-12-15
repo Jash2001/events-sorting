@@ -21,7 +21,7 @@ function fiterteredsort(){
     JSONd["upcoming"]=eventupcoming;
     JSONd["ongoing"]=eventongoing;
     JSONd["completed"]=eventcompleted;
-    fs.writeFile( './src/fileoutputName.json',(JSON.stringify(JSONd)),function(err) {
+    fs.writeFile( './src/sorted_events.json',(JSON.stringify(JSONd)),function(err) {
         if (err) throw err;
             // if no error
         console.log("Data is written to file successfully.");

@@ -1,6 +1,6 @@
 import React from 'react';
-import JSONDATA from './fileoutputName.json';
-import { useState } from 'react';
+import JSONDATA from './sorted_events.json';
+
 
 function SearchandTable() {
   var flag;
